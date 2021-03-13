@@ -97,38 +97,73 @@ li{
     border-radius: 100% 0;
     transform: rotate(98deg);
 }
-.flower{
+.flower-top{
     width: 40px;
     height: 40px;
-    margin: 32px 72px 64px;
+    margin: 28px 68px -65px;
+    border: solid 1px #2A345d;
     border-radius: 100% 0;
-    box-shadow: -48px 48px #32336B;
     position: relative;
-    background: linear-gradient(to top left, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
-
+    background: radial-gradient(farthest-side at 15% 77%, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
 }
-.flower:before,
-.flower:after{
+.flower-top:before,
+.flower-top:after{
     content: "";
     width: 40px;
     height: 40px;
     margin: 16px 48px;
+    border: solid 1px #2A345d;
     border-radius: 0 100%;
     position: absolute;
     left: -96px;
     top: -16px;
-    box-shadow: 48px 48px #32336B;
     transform-origin: 44px 44px;
-    background: linear-gradient(to top left, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
+    background: radial-gradient(farthest-side at 15% 77%, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
 }
-.flower:before{
+.flower-top:before{
+    border: solid 1px #2A345d;
     transform: rotate(-30deg);
-    background: linear-gradient(to top left, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
+    background: radial-gradient(farthest-side at 81% 77%, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
 }
 
-.flower:after{
+.flower-top:after{
+    border: solid 1px #2A345d;
     transform: rotate(30deg);
-    background: linear-gradient(to top left, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
+    background: radial-gradient(farthest-side at 77% 74%, #16235A 4%, #2A3457 20%, #A4A4BF 100%)
+}
+.flower-bottom{
+    width: 40px;
+    height: 40px;
+    margin: 71px 19px 14px;
+    border: solid 1px #2A345d;
+    border-radius: 100% 0;
+    position: relative;
+    transform: rotate(182deg);
+    background: radial-gradient(farthest-side at 15% 77%, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
+}
+.flower-bottom:before,
+.flower-bottom:after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    margin: 16px 48px;
+    border: solid 1px #2A345d;
+    border-radius: 0 100%;
+    position: absolute;
+    left: -96px;
+    top: -16px;
+    transform-origin: 44px 44px;
+    background: radial-gradient(farthest-side at 15% 77%, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
+}
+.flower-bottom:before{
+    border: solid 1px #2A345d;
+    transform: rotate(-30deg);
+    background: radial-gradient(farthest-side at 81% 77%, #16235A 4%, #2A3457 20%, #A4A4BF 100%);
+}
+.flower-bottom:after{
+    border: solid 1px #2A345d;
+    transform: rotate(30deg);
+    background: radial-gradient(farthest-side at 77% 74%, #16235A 4%, #2A3457 20%, #A4A4BF 100%)
 }
 .row-flex{
     display: flex;
