@@ -280,3 +280,53 @@ ul .sub-projects{
     float:none;
     position: relative;
 }
+
+main {
+    font-size: 0;
+}
+.search-pseudo{
+    margin: 20px;
+    background: grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.search-pseudo:after{
+    background: #F2EAED;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    top: 24px;
+    left: 25px;
+}
+.search-pseudo .handle{
+    background: grey;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 105px;
+    left: 102px;
+    transform: rotate(30deg);
+}
+.search-shadow{
+    margin: 20px;
+    background: #F2EAED;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: grey solid 25px;
+    position: relative;
+}
+.search-shadow .handle {
+    background: grey;
+    width: 88px;
+    height: 30px;
+    position: absolute;
+    top: 88px;
+    left: 87px;
+    transform: rotate(30deg);
+}
+
